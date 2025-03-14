@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mí</title>
+    <title>Proyectos</title>
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
@@ -12,18 +12,62 @@
             <a href="../index.html" class="header__menu__link">Home</a>
             <a href="#" class="header__menu__link">Proyectos</a>
             <a href="./about.html" class="header__menu__link">Sobre mí</a>
-            
         </nav>
     </header>
     <main class="presentacion">
-        <section class="presentacion__contenido">
-            <h1 class="presentacion__contenido__titulo">Sobre mí</h1>
-            <p class="presentacion__contenido__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est asperiores assumenda dignissimos sapiente doloribus, dolorum cupiditate laboriosam aliquid suscipit autem expedita illum veritatis excepturi distinctio placeat, aspernatur reprehenderit delectus quae?</p>
-            <p class="presentacion__contenido__texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque quia, soluta porro voluptas quae veniam odio corrupti nisi. Maiores cupiditate voluptatibus dicta dignissimos tempora reprehenderit dolorem nobis voluptas distinctio! Nulla.</p>
-        </section>
-        <section>
-            <img class="foto__perfil" src="../multimedia/Foto perfil.jpeg" alt="Eduardo Hernández perfil">
-        </section>
+
+        <div class="proyectos-container">
+            <section class="proyecto">
+                <img src="../multimedia/Proyectos/Fisioterapia.jpg" alt="Preview página Fisioterapia" class="proyecto-preview">
+                <div class="proyecto-contenido">
+                    <h2 class="presentacion__contenido__titulo" style="font-size: 1.5rem;">Página fisioterapia (Proyecto real)</h2>
+                    <p class="presentacion__contenido__texto">Este proyecto se ha desarrollado para un cliente fisioterapeuta, el cual busca iniciar su emprendimiento llegando a clientes nuevos mediante una página web</p>
+                    <div class="tecnologias">
+                        <img src="../multimedia/react-icon.png" alt="React" class="tecnologia-icono">
+                        <img src="../multimedia/css-icon.png" alt="CSS" class="tecnologia-icono">
+                        <img src="../multimedia/html-icon.png" alt="HTML" class="tecnologia-icono">
+                    </div>
+                    <a href="https://pagina-fisioterapia.vercel.app/" class="presentacion__enlaces__link proyecto-boton">Ver Proyecto</a>
+                </div>
+            </section>
+
+            <section class="proyecto">
+                <img src="../multimedia/Proyectos/PlantillaBoda.jpg" alt="Plantilla invitación de bodas" class="proyecto-preview">
+                <div class="proyecto-contenido">
+                    <h2 class="presentacion__contenido__titulo" style="font-size: 1.5rem;">Plantilla invitación de bodas</h2>
+                    <p class="presentacion__contenido__texto">Este proyecto busca ser una plantilla como portotipo de invitación de bodas</p>
+                    <div class="tecnologias">
+                        <img src="../multimedia/html-icon.png" alt="React" class="tecnologia-icono">
+                        <img src="../multimedia/css-icon.png" alt="CSS" class="tecnologia-icono">
+                    </div>
+                    <a href="https://pre-entrega3-hernandez.vercel.app/" class="presentacion__enlaces__link proyecto-boton">Ver Proyecto</a>
+                </div>
+            </section>
+
+            <section class="proyecto">
+                <img src="../multimedia/Proyectos/Numero_secreto.jpg" alt="Juego de número secreto" class="proyecto-preview">
+                <div class="proyecto-contenido">
+                    <h2 class="presentacion__contenido__titulo" style="font-size: 1.5rem;">Juego número secreto</h2>
+                    <p class="presentacion__contenido__texto">Este proyecto fue realizado como parte del curso Lógica de programación, el cual consiste en adivinar el número secreto que se genera de manera aleatoria</p>
+                    <div class="tecnologias">
+                        <img src="../multimedia/javascript-icon.png" alt="Ícono javascript" class="tecnologia-icono">
+                    </div>
+                    <a href="https://numero-secreto-ten-rho.vercel.app/" class="presentacion__enlaces__link proyecto-boton">Ver Proyecto</a>
+                </div>
+            </section>
+            <section class="proyecto">
+                <img src="../multimedia/Proyectos/amigo_secreto.jpg" alt="Juego de amigo secreto" class="proyecto-preview">
+                <div class="proyecto-contenido">
+                    <h2 class="presentacion__contenido__titulo" style="font-size: 1.5rem;">Juego amigo secreto</h2>
+                    <p class="presentacion__contenido__texto">Este proyecto fue realizado como práctica del curso de especialización de ciencia de datos e inteligencia artificial de Oracle next education, el cual consiste en agregar a tus amigos para realizar un sorteo de amigo secreto para inbtercambios como en temporadas de San Valentín o Navidad</p>
+                    <div class="tecnologias">
+                        <img src="../multimedia/javascript-icon.png" alt="Ícono javascript" class="tecnologia-icono">
+                    </div>
+                    <a href="https://amigo-secreto-tawny-two.vercel.app/" class="presentacion__enlaces__link proyecto-boton">Ver Proyecto</a>
+                </div>
+            </section>
+            
+        </div>
     </main>
     <footer class="footer">
         <p>Desarrollado por Eduardo Hernández</p>
